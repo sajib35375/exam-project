@@ -18,7 +18,7 @@
             <x-validation-errors class="mb-4 text-danger" />
             <form class="loginForm" method="POST" action="{{ route('register') }}">
                 @csrf
-                <h3 class="heading">Merchant Login</h3>
+                <h3 class="heading">Merchant Register</h3>
                 <input id="name" name="name" class="login-input" placeholder="Enter your Name" type="text">
                 <input id="email" name="email" class="login-input" placeholder="Enter your email" type="email">
                 <input id="password" name="password" class="login-input" placeholder="Enter your password" type="password">
